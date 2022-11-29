@@ -1,0 +1,14 @@
+/* CSS Boilerplate/Essentials */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
