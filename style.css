@@ -20,6 +20,17 @@ body {
     text-decoration: none;
 }
 
+/* Footer */
+footer.container {
+    background-color: rgb(66, 66, 226);
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -28,3 +39,4 @@ header {
     background-color: #24252a;
 }
 /* Header Nav Bar Styling */
+
