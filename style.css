@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+/* Header Nav Bar Styling */
 .container, .contact-button {
     font-weight: 500;
     font-size: 16px;
@@ -30,3 +30,13 @@ footer.container {
     align-items: center;
     font-weight: bold;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24252a;
+}
+/* Header Nav Bar Styling */
+
