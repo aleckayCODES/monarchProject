@@ -32,14 +32,14 @@ header {
 .nav-bar {
     list-style: none;
 }
-.nav-bar, li {
+.nav-bar, .nav-list {
     display: inline-block;
     padding: 0px 20px;
 }
 .nav-bar a {
     transition: all 0.3s ease 0s;
 }
-.nav-bar li a:hover {
+.nav-bar .nav-list a:hover {
     color: #0088a9
 }
 button {
@@ -67,12 +67,17 @@ footer.container {
 
 /* Strawhat Image */
 .straw {
-    display: inline;
-    justify-content: center;
-    margin-left: 25%;
-    max-width: 30%;
+    display: flex;
+    max-width: 10%;
 }
 /* Top Content */
+.first-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 .straw-text {
-    
+    text-align: center;
+    margin-left: 20%;
 }
