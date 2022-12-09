@@ -13,11 +13,45 @@ body {
     flex-direction: column;
 }
 /* Header Nav Bar Styling */
-.container, .contact-button {
+.container, button  {
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+}
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+        background-color: #24252a;
+}
+.logo {
+    cursor: pointer;
+}
+.nav-bar {
+    list-style: none;
+}
+.nav-bar, .nav-list {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-bar a {
+    transition: all 0.3s ease 0s;
+}
+.nav-bar .nav-list a:hover {
+    color: #0088a9
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(0,136,169,0.8);
 }
 
 /* Footer Styling */
@@ -31,14 +65,22 @@ footer.container {
     font-weight: bold;
 }
 
-header {
+/* Strawhat Image */
+.straw {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: #24252a;
+    max-width: 10%;
 }
-/* Header Nav Bar Styling */
+/* Top Content */
+.first-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    }
+ .straw-text {
+    text-align: center;
+    margin-left: 20%;
+}
 
 /* Bottom Content Styling */
 .content-container {
@@ -74,4 +116,3 @@ header {
         justify-content: center;
         flex-direction: column;
     }
- }
