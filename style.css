@@ -56,3 +56,8 @@ header {
     max-width: 600px;
     margin-right: 120px;
  }
+
+ .content-container img {
+    width: 500px;
+    height: auto;
+ }
