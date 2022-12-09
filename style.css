@@ -57,13 +57,14 @@ button:hover {
 
 /* Footer Styling */
 footer.container {
-    background-color: rgb(66, 66, 226);
+    background-color: #24252a;
     color: white;
     padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    margin-bottom: auto;
 }
 
 /* Strawhat Image */
@@ -96,10 +97,11 @@ footer.container {
     justify-content: center;
     align-items: center;
     padding: 100px;
+    border-top: solid #24252a 1px;
 }
 
  .content h1 {
-    color: rgb(66, 66, 226);
+    color: #24252a;
     font-size: 50px;
  }
 
@@ -124,3 +126,4 @@ footer.container {
         justify-content: center;
         flex-direction: column;
     }
+ }
