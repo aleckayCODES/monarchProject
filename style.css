@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 /* Header Nav Bar Styling */
-.container, button  {
+nav.container, button  {
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -25,6 +25,7 @@ header {
         align-items: center;
         padding: 30px 10%;
         background-color: #24252a;
+        color: #edf0f1
 }
 .logo {
     cursor: pointer;
@@ -68,7 +69,7 @@ footer.container {
 /* Strawhat Image */
 .straw {
     display: flex;
-    max-width: 10%;
+    max-width: 20%;
 }
 /* Top Content */
 .first-product {
@@ -76,10 +77,17 @@ footer.container {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    padding: 80px;
     }
  .straw-text {
-    text-align: center;
+    text-align: left;
     margin-left: 20%;
+}
+.straw-text h1 {
+    font-size: 50px;
+}
+.straw-text ul {
+    font-size: 20px;
 }
 
 /* Bottom Content Styling */
