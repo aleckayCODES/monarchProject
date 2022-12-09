@@ -43,6 +43,8 @@ header {
 /* Bottom Content Styling */
 .content-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
 }
  .content h1 {
