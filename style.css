@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 /* Header Nav Bar Styling */
-.container, .contact-button {
+.container, button  {
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -25,6 +25,33 @@ header {
         align-items: center;
         padding: 30px 10%;
         background-color: #24252a;
+}
+.logo {
+    cursor: pointer;
+}
+.nav-bar {
+    list-style: none;
+}
+.nav-bar, li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-bar a {
+    transition: all 0.3s ease 0s;
+}
+.nav-bar li a:hover {
+    color: #0088a9
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(0,136,169,0.8);
 }
 
 /* Footer */
@@ -38,14 +65,14 @@ footer.container {
     font-weight: bold;
 }
 
-/* Straw Img */
-.straw-img {
-    display: block;
-    justify-content: left;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 10%;
-    width: 20%;
-    object-fit: contain;
+/* Strawhat Image */
+.straw {
+    display: inline;
+    justify-content: center;
+    margin-left: 25%;
+    max-width: 30%;
 }
-
+/* Top Content */
+.straw-text {
+    
+}
