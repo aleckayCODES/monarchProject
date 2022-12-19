@@ -136,10 +136,10 @@ footer.container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
     gap: 12px;
-    margin: auto;
     padding: 60px;
+    margin-top: 80px;
+    flex-shrink: 1;
  }
 
  .login-container h3 {
@@ -151,7 +151,7 @@ footer.container {
  }
 
  .login-container input {
-    font-size: 30px;
+    font-size: 25px;
  }
 
  .login-container button {
