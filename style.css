@@ -64,7 +64,9 @@ footer.container {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    margin-bottom: auto;
+    position:fixed;
+    bottom: 0; 
+    width: 100%;
 }
 
 /* Strawhat Image */
