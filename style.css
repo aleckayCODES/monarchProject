@@ -133,4 +133,7 @@ footer.container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 5px solid black;
+    padding: 100px;
+    margin: auto;
  }
