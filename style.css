@@ -130,6 +130,7 @@ footer.container {
     }
  }
 
+ /* Contact Page */
  .login-container {
     box-sizing: border-box;
     display: flex;
@@ -152,8 +153,13 @@ footer.container {
 
  .login-container input {
     font-size: 25px;
+    border-radius: 5px;
  }
 
  .login-container button {
     padding: 5px 40px;
+ }
+
+ .login-container a:hover {
+    color: #0088a9;
  }
