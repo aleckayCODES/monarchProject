@@ -129,11 +129,13 @@ footer.container {
  }
 
  .login-container {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 5px solid black;
-    padding: 100px;
-    margin: auto;
+    border: 2px solid black;
+    padding: 30px 10px;
+    margin: 50px 60px;
+    gap: 12px;
  }
