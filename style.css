@@ -15,7 +15,8 @@ body {
 /* Header Nav Bar Styling */
 nav.container, button  {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -25,13 +26,15 @@ header {
         align-items: center;
         padding: 30px 10%;
         background-color: #24252a;
-        color: #edf0f1
+        color: #edf0f1;
 }
 .logo {
     cursor: pointer;
 }
 .nav-bar {
     list-style: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 .nav-bar, .nav-list {
     display: inline-block;
@@ -89,6 +92,9 @@ footer.container {
 }
 .straw-text ul {
     font-size: 20px;
+}
+.anime-list li {
+    padding: 10px 0px;
 }
 
 /* Bottom Content Styling */
