@@ -43,6 +43,9 @@ header {
 .nav-bar a {
     transition: all 0.3s ease 0s;
 }
+.nav-bar {
+    padding-right: 120px;
+}
 .nav-bar .nav-list a:hover {
     color: #0088a9
 }
