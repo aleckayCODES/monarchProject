@@ -132,6 +132,14 @@ footer.container {
  .gallery-container {
     display: flex;
  }
+
+.gallery-top, .gallery-bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
  .gallery-container, img {
     width: 200px;
     height: auto;
