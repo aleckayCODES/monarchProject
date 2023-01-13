@@ -136,3 +136,19 @@ footer.container {
         flex-direction: column;
     }
  }
+ /* Shop Content */
+ .shop-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+ }
+ .product-img {
+    max-width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .item-name, .item-price {
+    text-align: center;
+ }
+ 
