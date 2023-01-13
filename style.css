@@ -138,9 +138,10 @@ footer.container {
     align-items: center;
     justify-content: center;
     padding: 30px;
+    gap: 5px;
 }
 
  .gallery-container, img {
-    width: 200px;
+    width: 300px;
     height: auto;
  }
