@@ -147,7 +147,7 @@ footer.container {
  }
 
  /* Quote */
-.quote {
+.quote-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,12 +162,12 @@ footer.container {
     gap: 10px;
 }
 
-.quote p {
+.quote-container p {
     font-size: 25px;
     font-style: italic;
 }
 
-.quote h4 {
+.quote-container h4 {
     display: flex;
     align-self: flex-end;
     margin-right: 50px;
