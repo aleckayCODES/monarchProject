@@ -180,3 +180,7 @@ footer.container {
     padding: 70px;
     gap: 10px;
 }
+
+.about-container p {
+    line-height: 1.4;
+}
