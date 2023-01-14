@@ -165,4 +165,34 @@ footer.container {
     padding-top: 50px;
     padding-bottom: 25px;
     font-size: 50px;
+    text-decoration: underline;
+ }
+ /* News Content */
+ .news-img {
+    width: 250px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    float: left;
+ }
+ .article-header {
+    font-size: 40px;
+    text-align: left;
+ }
+ .news-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+ }
+ .news-img2 {
+    width: 250px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    float: right;
+ }
+ .news-article {
+    margin-left: 250px;
+    margin-right: 250px;
  }
