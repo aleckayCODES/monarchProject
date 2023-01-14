@@ -177,6 +177,6 @@ footer.container {
 .about-container {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 70px;
     gap: 10px;
 }
