@@ -167,7 +167,7 @@ footer.container {
     font-style: italic;
 }
 
-.quote-container h1 {
+.quote-container h3 {
     display: flex;
     align-self: flex-end;
     margin-right: 50px;
