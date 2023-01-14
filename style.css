@@ -174,4 +174,9 @@ footer.container {
 }
 
 /* About blurb */
-
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
