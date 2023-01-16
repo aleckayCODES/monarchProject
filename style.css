@@ -130,6 +130,67 @@ footer.container {
     }
  }
 
+
+ /* About Page */
+ .gallery-container {
+    display: flex;
+ }
+
+.gallery-top, .gallery-bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 5px;
+}
+
+ .gallery-container, img {
+    max-width: 500px;
+    height: 300px;
+    margin-bottom: -55px;
+ }
+
+ /* Quote */
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 70px;
+    margin-top: 70px;
+}
+
+.quote-content {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-container p {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.quote-container h3 {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+/* About blurb */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 50px;
+}
+
+.about-container p {
+    line-height: 1.4;
+    font-size: 20px;
+}
+
  /* Contact Page */
  .login-container {
     display: flex;
@@ -162,3 +223,4 @@ footer.container {
  .login-container a:hover {
     color: #0088a9;
  }
+
