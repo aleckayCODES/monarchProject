@@ -25,7 +25,7 @@ header {
         align-items: center;
         padding: 30px 10%;
         background-color: #24252a;
-        color: #edf0f1
+        color: #edf0f1;
 }
 .logo {
     cursor: pointer;
@@ -64,7 +64,9 @@ footer.container {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    margin-bottom: auto;
+    position:fixed;
+    bottom: 0; 
+    width: 100%;
 }
 
 /* Strawhat Image */
@@ -128,7 +130,8 @@ footer.container {
     }
  }
 
- /* About Page - Picture Gallery */
+
+ /* About Page */
  .gallery-container {
     display: flex;
  }
@@ -187,3 +190,37 @@ footer.container {
     line-height: 1.4;
     font-size: 20px;
 }
+
+ /* Contact Page */
+ .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 60px;
+    margin-top: 80px;
+    flex-shrink: 1;
+ }
+
+ .login-container h3 {
+    font-size: 35px;
+ }
+
+ .login-container p {
+    font-size: 18px;
+ }
+
+ .login-container input {
+    font-size: 25px;
+    border-radius: 5px;
+ }
+
+ .login-container button {
+    padding: 5px 40px;
+ }
+
+ .login-container a:hover {
+    color: #0088a9;
+ }
+
