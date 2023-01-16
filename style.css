@@ -15,7 +15,8 @@ body {
 /* Header Nav Bar Styling */
 nav.container, button  {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -32,6 +33,8 @@ header {
 }
 .nav-bar {
     list-style: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 .nav-bar, .nav-list {
     display: inline-block;
@@ -39,6 +42,9 @@ header {
 }
 .nav-bar a {
     transition: all 0.3s ease 0s;
+}
+.nav-bar {
+    padding-right: 120px;
 }
 .nav-bar .nav-list a:hover {
     color: #0088a9
@@ -92,6 +98,9 @@ footer.container {
 .straw-text ul {
     font-size: 20px;
 }
+.anime-list li {
+    padding: 10px 0px;
+}
 
 /* Bottom Content Styling */
 .content-container {
@@ -129,7 +138,66 @@ footer.container {
         flex-direction: column;
     }
  }
-
+ /* Shop Content */
+ .shop-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+ }
+ .product-img {
+    max-width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .item-name, .item-price {
+    text-align: center;
+ }
+ .product {
+    padding-top: 25px;
+    padding-bottom: 25px;
+ }
+ .item-name {
+    font-weight: bold;
+    padding-top: 15px;
+ }
+ .shop-header {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    text-decoration: underline;
+ }
+ /* News Content */
+ .news-img {
+    width: 250px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    float: left;
+ }
+ .article-header {
+    font-size: 40px;
+    text-align: left;
+ }
+ .news-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+ }
+ .news-img2 {
+    width: 250px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    float: right;
+ }
+ .news-article {
+    margin-left: 250px;
+    margin-right: 250px;
+ }
 
  /* About Page */
  .gallery-container {
@@ -223,4 +291,3 @@ footer.container {
  .login-container a:hover {
     color: #0088a9;
  }
-
