@@ -70,7 +70,9 @@ footer.container {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    margin-bottom: auto;
+    position:fixed;
+    bottom: 0; 
+    width: 100%;
 }
 
 /* Strawhat Image */
@@ -195,4 +197,97 @@ footer.container {
  .news-article {
     margin-left: 250px;
     margin-right: 250px;
+ }
+
+ /* About Page */
+ .gallery-container {
+    display: flex;
+ }
+
+.gallery-top, .gallery-bot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 5px;
+}
+
+ .gallery-container, img {
+    max-width: 500px;
+    height: 300px;
+    margin-bottom: -55px;
+ }
+
+ /* Quote */
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 70px;
+    margin-top: 70px;
+}
+
+.quote-content {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-container p {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.quote-container h3 {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+/* About blurb */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 50px;
+}
+
+.about-container p {
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+ /* Contact Page */
+ .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 60px;
+    margin-top: 80px;
+    flex-shrink: 1;
+ }
+
+ .login-container h3 {
+    font-size: 35px;
+ }
+
+ .login-container p {
+    font-size: 18px;
+ }
+
+ .login-container input {
+    font-size: 25px;
+    border-radius: 5px;
+ }
+
+ .login-container button {
+    padding: 5px 40px;
+ }
+
+ .login-container a:hover {
+    color: #0088a9;
  }
